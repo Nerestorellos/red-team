@@ -109,7 +109,15 @@
   border: solid black 1px;
   width: 100%;
 }
-.details-panel > img{
+.tab-content{
+  display: flex;
+  align-items: flex-start;
+  padding: 20px;
+}
+.tab-content > p{
+  margin-left: 20px;
+}
+.tab-content > img{
   height: 300px;
   width: 10%;
 }
@@ -121,8 +129,23 @@
 }
 
 .hor-nav > li{
+
+}
+.hor-nav input{
+  visibility: hidden;
+  position: absolute;
+}
+.hor-nav label{
   border: black 1px solid;
   padding: 10px;
+  height: 100%;
+  width: 100%;
+}
+#tab-1:checked  ~ #tab-l1,
+#tab-2:checked  ~ #tab-l2,
+#tab-3:checked  ~ #tab-l3 {
+	background: #f1f1f1;
+	border-color: #f1f1f1;
 }
 
 .footer{
