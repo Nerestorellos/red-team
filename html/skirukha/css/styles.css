@@ -1,5 +1,7 @@
 body{
   font-family: Arial;
+  border: solid 1px black;
+  min-width: 1024px;
 }
 .header{
   margin: 0;
@@ -8,14 +10,18 @@ body{
   box-sizing: border-box;
   padding: 25px;
   width: 100%;
+  min-width: 1024px;
   height: 120px;
   background-color: #ebebeb;
   font: Arial;
-  border: solid 1px black;
+  border-bottom: solid 1px black;
 }
 .logo{
   height: 100%;
   width: 200px;
+}
+.logo:hover{
+  cursor: pointer;
 }
 .header > a{
   border-bottom: #ebebeb solid 1px;
@@ -57,14 +63,13 @@ body{
   display: flex;
   align-items: flex-start;
   margin: 0;
+  min-width: 1024px;
   min-height: 500px;
-  border-style: none solid none solid;
-  border-width: 1px;
-  border-color: black;
 }
 .left-nav-panel{
   margin-right: 30px;
   display: inline-block;
+  min-width: 200px;
   width: 10%;
   min-height: 600px;
   border-style: none solid solid none;
@@ -109,6 +114,10 @@ body{
   height: 300px;
 }
 
+.main-content > img:hover{
+  cursor: pointer;
+}
+
 .tab-details{
   border: solid black 1px;
   width: 100%;
@@ -120,10 +129,11 @@ body{
   padding: 20px;
 }
 .tab-content > p{
-  margin-left: 20px;
+  margin-left: 50px;
 }
 .tab-content > img{
-  height: 300px;
+  min-height: 200px;
+  max-height: 300px;
   width: 10%;
 }
 .tab-wrapper{
@@ -139,31 +149,44 @@ body{
   position: relative;
   border: black 1px solid;
   display: inline-block;
-	width: 150px;
-	height: 45px;
-	line-height: 45px;
+  padding: 0 5px 0 5px;
+	height: 25px;
+  background-color: #a8a8a8;
+	line-height: 25px;
   text-align: center;
 }
 .tab-wrapper > label:hover{
   cursor: pointer;
-  background: #f1f1f1;
+  background: #fff;
 }
 .tab-content{
   display: none;
 }
 #tab-1:checked  ~ #tab-l1,
 #tab-2:checked  ~ #tab-l2,
-#tab-3:checked  ~ #tab-l3 {
+#tab-3:checked  ~ #tab-l3,
+#tab-4:checked  ~ #tab-l4,
+#tab-5:checked  ~ #tab-l5,
+#tab-6:checked  ~ #tab-l6,
+#tab-7:checked  ~ #tab-l7 {
 	background: #f1f1f1;
 	border-color: #f1f1f1;
 }
 
 #tab-1:checked  ~ .tab-details #tab-cont-1,
 #tab-2:checked  ~ .tab-details #tab-cont-2,
-#tab-3:checked  ~ .tab-details #tab-cont-3 {
+#tab-3:checked  ~ .tab-details #tab-cont-3,
+#tab-4:checked  ~ .tab-details #tab-cont-4,
+#tab-5:checked  ~ .tab-details #tab-cont-5,
+#tab-6:checked  ~ .tab-details #tab-cont-6,
+#tab-7:checked  ~ .tab-details #tab-cont-7 {
 	display: flex;
 }
 
+.footer{
+  margin-top: 100px;
+  min-width: 1024px;
+}
 
 .footer > p{
   text-align: center;
