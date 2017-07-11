@@ -1,3 +1,6 @@
+body{
+  font-family: Arial;
+}
 .header{
   margin: 0;
   display: flex;
@@ -60,8 +63,10 @@
   border-color: black;
 }
 .left-nav-panel{
+  margin-right: 30px;
   display: inline-block;
   width: 10%;
+  min-height: 600px;
   border-style: none solid solid none;
   border-color: black;
   border-width: 1px;
@@ -74,13 +79,14 @@
 .vert-nav > li{
   margin: 0 0 10px 0;
   box-sizing: border-box;
+  min-height: 50px;
   padding: 5px;
   border: solid black 1px;
   text-align: center;
+  line-height: 50px;
 }
 .vert-nav > li:hover{
   cursor: pointer;
-  border-color: red;
   background-color: #cfcfcf;
 }
 
@@ -92,22 +98,21 @@
 .main-content{
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .main-content > h1{
-  margin: 0 30px 0 30px;
+  margin: 0;
   font-size: 60px;
 }
 .main-content > img{
   width: 80%;
   height: 300px;
 }
-.info-panel{
-  margin-top: 20px;
-  width: 90%;
-}
-.details-panel{
+
+.tab-details{
   border: solid black 1px;
   width: 100%;
+  position: relative;
 }
 .tab-content{
   display: flex;
@@ -121,25 +126,30 @@
   height: 300px;
   width: 10%;
 }
-.hor-nav{
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
+.tab-wrapper{
+  margin-top: 20px;
+  width: 100%;
 }
 
-.hor-nav > li{
-
-}
-.hor-nav input{
+.tab-wrapper > input{
   visibility: hidden;
   position: absolute;
 }
-.hor-nav label{
+.tab-wrapper > label{
+  position: relative;
   border: black 1px solid;
-  padding: 10px;
-  height: 100%;
-  width: 100%;
+  display: inline-block;
+	width: 150px;
+	height: 45px;
+	line-height: 45px;
+  text-align: center;
+}
+.tab-wrapper > label:hover{
+  cursor: pointer;
+  background: #f1f1f1;
+}
+.tab-content{
+  display: none;
 }
 #tab-1:checked  ~ #tab-l1,
 #tab-2:checked  ~ #tab-l2,
@@ -148,9 +158,13 @@
 	border-color: #f1f1f1;
 }
 
-.footer{
-  border: solid 1px black;
+#tab-1:checked  ~ .tab-details #tab-cont-1,
+#tab-2:checked  ~ .tab-details #tab-cont-2,
+#tab-3:checked  ~ .tab-details #tab-cont-3 {
+	display: flex;
 }
+
+
 .footer > p{
   text-align: center;
 }
