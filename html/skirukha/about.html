@@ -5,81 +5,81 @@
   <link rel="stylesheet" href="css/styles.css" type="text/css">
   <title>О компании</title>
 </head>
-<body>
+<body class="page">
   <header class="header">
-    <img class="logo" src="images/logo.png" alt="">
-    <a href="#">О компании</a>
+    <img class="logo" src="images/logo.png" alt="Логотип iTechArt">
+    <a class="about-ref" href="#">О компании</a>
     <div class="hello-user">
-      <i id="user-icon"></i>
+      <i class="user-icon"></i>
       <span>Привет, админ!</span>
-      <i id="arrow-icon"></i>
+      <i class="arrow-icon"></i>
     </div>
   </header>
   <main class="wrapper">
-    <div class="left-nav-panel">
-      <ul class="vert-nav">
-        <li>Новый опрос</li>
-        <li>Мои опросы</li>
-        <li>Шаблоны вопросов</li>
+    <div class="menu-wrapper">
+      <ul class="menu">
+        <li class="menu-item">Новый опрос</li>
+        <li class="menu-item">Мои опросы</li>
+        <li class="menu-item">Шаблоны вопросов</li>
       </ul>
     </div>
-    <div class="content">
-      <div class="main-content">
-        <h1>iTechArt</h1>
-        <img src="images/about-big-image.jpg" alt=""/>
+    <div class="content-wrapper">
+      <div class="main-content-wrapper">
+        <h1 class="title">iTechArt</h1>
+        <img class="about-image" src="images/about-big-image.jpg" alt="О нас"/>
       </div>
 
-      <section class="tab-wrapper">
-        <input id="tab-about" type="radio" name="tab" checked="checked" />
-        <label for="tab-about" id="tab-lable-about">О нас</label>
-        <input id="tab-study" type="radio" name="tab" />
-        <label for="tab-study" id="tab-lable-study">Обучение</label>
-        <input id="tab-benefits" type="radio" name="tab" />
-        <label for="tab-benefits" id="tab-lable-benefits">Бенефиты</label>
-        <input id="tab-students" type="radio" name="tab" />
-        <label for="tab-students" id="tab-lable-students">Для студентов</label>
-        <input id="tab-advantages" type="radio" name="tab" />
-        <label for="tab-advantages" id="tab-lable-advantages">Наши преимущества</label>
-        <input id="tab-vacancies" type="radio" name="tab" />
-        <label for="tab-vacancies" id="tab-lable-vacancies">Вакансии</label>
-        <input id="tab-contacts" type="radio" name="tab" />
-        <label for="tab-contacts" id="tab-lable-contacts">Контакты</label>
+      <div class="tab-wrapper">
+        <input id="tab-about" class="tab-input" type="radio" name="tab" checked="checked" />
+        <label for="tab-about" id="tab-lable-about" class="tab-label">О нас</label>
+        <input id="tab-study" class="tab-input" type="radio" name="tab" />
+        <label for="tab-study" id="tab-lable-study" class="tab-label">Обучение</label>
+        <input id="tab-benefits" class="tab-input" type="radio" name="tab" />
+        <label for="tab-benefits" id="tab-lable-benefits" class="tab-label">Бенефиты</label>
+        <input id="tab-students" type="radio" class="tab-input" name="tab" />
+        <label for="tab-students" id="tab-lable-students" class="tab-label">Для студентов</label>
+        <input id="tab-advantages" class="tab-input" type="radio" name="tab" />
+        <label for="tab-advantages" id="tab-lable-advantages" class="tab-label">Наши преимущества</label>
+        <input id="tab-vacancies" class="tab-input" type="radio" name="tab" />
+        <label for="tab-vacancies" id="tab-lable-vacancies" class="tab-label">Вакансии</label>
+        <input id="tab-contacts" class="tab-input" type="radio" name="tab" />
+        <label for="tab-contacts" id="tab-lable-contacts" class="tab-label">Контакты</label>
 
-        <div class="tab-details">
+        <div class="tab-details-wrapper">
           <div id="tab-cont-about" class="tab-content">
-            <img src="images/about-image.jpg" alt=""/>
-            <p>Текст о нас</p>
+            <img class="tab-cont-image" src="images/about-image.jpg" alt="О нас"/>
+            <p class="tab-cont-paragraph">Текст о нас</p>
           </div>
           <div id="tab-cont-study" class="tab-content">
-            <img src="images/best-image.png" alt=""/>
-            <p>Текст обучения</p>
+            <img class="tab-cont-image" src="images/best-image.png" alt="Слава Украини"/>
+            <p class="tab-cont-paragraph">Текст обучения</p>
           </div>
           <div id="tab-cont-benefits" class="tab-content">
-            <img src="images/about-image.jpg" alt=""/>
-            <p>Текст бенефитов</p>
+            <img class="tab-cont-image" src="images/about-image.jpg" alt="Бенефиты"/>
+            <p class="tab-cont-paragraph">Текст бенефитов</p>
           </div>
           <div id="tab-cont-students" class="tab-content">
-            <img src="images/about-image.jpg" alt=""/>
-            <p>Текст для студентов</p>
+            <img class="tab-cont-image" src="images/about-image.jpg" alt="Студентам"/>
+            <p class="tab-cont-paragraph">Текст для студентов</p>
           </div>
           <div id="tab-cont-advantages" class="tab-content">
-            <img src="images/about-image.jpg" alt=""/>
-            <p>Текст наших преимуществ</p>
+            <img class="tab-cont-image" src="images/about-image.jpg" alt="Преимущества"/>
+            <p class="tab-cont-paragraph">Текст наших преимуществ</p>
           </div>
           <div id="tab-cont-vacancies" class="tab-content">
-            <img src="images/about-image.jpg" alt=""/>
-            <p>Текст вакансий</p>
+            <img class="tab-cont-image" src="images/about-image.jpg" alt="Вакансии"/>
+            <p class="tab-cont-paragraph">Текст вакансий</p>
           </div>
           <div id="tab-cont-contacts" class="tab-content">
-            <img src="images/about-image.jpg" alt=""/>
-            <p>Текст контактов</p>
+            <img class="tab-cont-image" src="images/about-image.jpg" alt="Контакты"/>
+            <p class="tab-cont-paragraph">Текст контактов</p>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   </main>
   <footer class="footer">
-    <p>Copyright @ 2017 iTechArt</p>
+    <p class="footer-paragraph">Copyright @ 2017 iTechArt</p>
   </footer>
 </body>
 </html>

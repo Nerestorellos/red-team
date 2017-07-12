@@ -1,10 +1,10 @@
-body{
+.page {
   font-family: Arial;
   border: solid 1px black;
   min-width: 1024px;
 }
 
-.header{
+.header {
   margin: 0;
   display: flex;
   align-items: center;
@@ -17,35 +17,41 @@ body{
   font: Arial;
   border-bottom: solid 1px black;
 }
-.logo{
+
+.logo {
   height: 100%;
   width: 200px;
 }
-.logo:hover{
+
+.logo:hover {
   cursor: pointer;
 }
-.header > a{
+
+.about-ref {
   border-bottom: #ebebeb solid 1px;
   margin-left: auto;
   text-decoration: none;
   color: black;
 }
-.header > a:hover{
+
+.about-ref:hover {
   border-bottom: red solid 1px;
 }
-.hello-user{
+
+.hello-user {
   margin-left: 20px;
   display: flex;
   align-items: center;
 }
 
-#user-icon{
+.user-icon {
   width: 48px;
   height: 48px;
   background-image: url(../images/user-icon.png);
   background-size: cover;
 }
-#arrow-icon{
+
+.arrow-icon {
   margin-left: 10px;
   box-sizing: border-box;
   border: solid 1px #ebebeb;
@@ -54,20 +60,23 @@ body{
   background-image: url(../images/arrow-icon.png);
   background-size: cover;
 }
-#arrow-icon:hover{
+
+.arrow-icon:hover {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: red;
   cursor: pointer;
 }
-.wrapper{
+
+.wrapper {
   display: flex;
   align-items: flex-start;
   margin: 0;
   min-width: 1024px;
   min-height: 500px;
 }
-.left-nav-panel{
+
+.menu-wrapper {
   margin-right: 30px;
   display: inline-block;
   min-width: 200px;
@@ -77,12 +86,14 @@ body{
   border-color: black;
   border-width: 1px;
 }
-.vert-nav{
+
+.menu {
   margin: 0;
-  padding: 20px 10px 20px 10px;
+  padding: 20px 10px;
   list-style: none;
 }
-.vert-nav > li{
+
+.menu-item {
   margin: 0 0 10px 0;
   box-sizing: border-box;
   min-height: 50px;
@@ -91,79 +102,91 @@ body{
   text-align: center;
   line-height: 50px;
 }
-.vert-nav > li:hover{
+
+.menu-item:hover {
   cursor: pointer;
   background-color: #cfcfcf;
 }
 
-.content{
+.content-wrapper {
   box-sizing: border-box;
   padding: 20px;
   width: 70%;
 }
-.main-content{
+
+.main-content-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.main-content > h1{
+
+.title {
   margin: 0;
   font-size: 60px;
 }
-.main-content > img{
+
+.about-image {
   margin-left: 15px;
   width: 80%;
   height: 300px;
 }
 
-.main-content > img:hover{
+.about-image:hover {
   cursor: pointer;
 }
 
-.tab-details{
+.tab-details-wrapper {
   border: solid black 1px;
   width: 100%;
   position: relative;
 }
-.tab-content{
+
+.tab-content {
   display: flex;
   align-items: flex-start;
   padding: 20px;
 }
-.tab-content > p{
+
+.tab-cont-paragraph {
   margin-left: 50px;
 }
-.tab-content > img{
+
+.tab-cont-image {
   min-height: 200px;
   max-height: 300px;
   width: 10%;
 }
-.tab-wrapper{
+
+.tab-wrapper {
   margin-top: 20px;
   width: 100%;
 }
 
-.tab-wrapper > input{
+.tab-input {
   visibility: hidden;
   position: absolute;
 }
-.tab-wrapper > label{
+
+.tab-label {
   position: relative;
   border: black 1px solid;
   display: inline-block;
-  padding: 0 5px 0 5px;
+  padding: 0 5px;
 	height: 25px;
   background-color: #a8a8a8;
 	line-height: 25px;
   text-align: center;
 }
-.tab-wrapper > label:hover{
+
+.tab-label:hover {
   cursor: pointer;
   background: #fff;
 }
-.tab-content{
+
+.tab-content {
   display: none;
 }
+
 #tab-about:checked  ~ #tab-lable-about,
 #tab-study:checked  ~ #tab-lable-study,
 #tab-benefits:checked  ~ #tab-lable-benefits,
@@ -175,74 +198,87 @@ body{
 	border-color: #f1f1f1;
 }
 
-#tab-about:checked  ~ .tab-details #tab-cont-about,
-#tab-study:checked  ~ .tab-details #tab-cont-study,
-#tab-benefits:checked  ~ .tab-details #tab-cont-benefits,
-#tab-students:checked  ~ .tab-details #tab-cont-students,
-#tab-advantages:checked  ~ .tab-details #tab-cont-advantages,
-#tab-vacancies:checked  ~ .tab-details #tab-cont-vacancies,
-#tab-contacts:checked  ~ .tab-details #tab-cont-contacts {
+#tab-about:checked  ~ .tab-details-wrapper #tab-cont-about,
+#tab-study:checked  ~ .tab-details-wrapper #tab-cont-study,
+#tab-benefits:checked  ~ .tab-details-wrapper #tab-cont-benefits,
+#tab-students:checked  ~ .tab-details-wrapper #tab-cont-students,
+#tab-advantages:checked  ~ .tab-details-wrapper #tab-cont-advantages,
+#tab-vacancies:checked  ~ .tab-details-wrapper #tab-cont-vacancies,
+#tab-contacts:checked  ~ .tab-details-wrapper #tab-cont-contacts {
 	display: flex;
 }
 
-.footer{
+.footer {
   margin-top: 100px;
   min-width: 1024px;
 }
 
-.footer > p{
+.footer-paragraph {
   text-align: center;
 }
-@media screen and (min-width: 600px) and (max-width: 800px){
-  body{
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .page{
     width: 660px;
   }
-  .header{
+
+  .header {
     padding: 5px;
     width: 660px;
     height: 60px;
   }
-  .wrapper{
+
+  .wrapper {
     width: 660px;
   }
-  .left-nav-panel{
+
+  .menu-wrapper {
     width: 150px;
   }
-  .vert-nav > li{
+
+  .menu-item {
     min-height: 0;
     line-height: normal;
   }
-  .content{
+
+  .content {
     width: 510px;
   }
-  .main-content > img{
+
+  .about-image {
     width: 50%;
     height: 200px;
   }
 }
-@media screen and (max-width: 480px){
-  body{
+
+@media screen and (max-width: 480px) {
+  .page {
     width: 470px;
   }
-  .header{
+
+  .header {
     padding: 5px;
     width: 470px;
     height: 60px;
   }
-  .wrapper{
+
+  .wrapper {
     width: 470px;
   }
-  .left-nav-panel{
+
+  .menu-wrapper {
     width: 100px;
   }
-  .vert-nav > li{
+
+  .menu-item {
     min-height: 0;
     line-height: normal;
   }
-  .content{
+
+  .content {
     width: 370px;
   }
-  .main-content > img{
+
+  .about-image {
     width: 50%;
     height: 100px;
   }
