@@ -1,0 +1,13 @@
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\bin\Debug\iTechArtSurvay.Infrastructure.dll
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\bin\Debug\iTechArtSurvay.Infrastructure.pdb
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\bin\Debug\iTechArtSurvay.Data.dll
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\bin\Debug\iTechArtSurvay.Domain.dll
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\bin\Debug\iTechArtSurvay.Data.pdb
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\bin\Debug\iTechArtSurvay.Data.dll.config
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\bin\Debug\iTechArtSurvay.Domain.pdb
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\bin\Debug\iTechArtSurvay.Domain.dll.config
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\obj\Debug\iTechArtSurvay.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\obj\Debug\iTechArtSurvay.Infrastructure.dll
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Infrastructure\obj\Debug\iTechArtSurvay.Infrastructure.pdb

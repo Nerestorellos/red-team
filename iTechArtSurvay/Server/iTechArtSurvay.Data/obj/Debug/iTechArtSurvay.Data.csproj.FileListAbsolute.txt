@@ -1,0 +1,16 @@
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\bin\Debug\iTechArtSurvay.Data.dll.config
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\bin\Debug\iTechArtSurvay.Data.dll
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\bin\Debug\iTechArtSurvay.Data.pdb
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\bin\Debug\EntityFramework.dll
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\bin\Debug\iTechArtSurvay.Domain.dll
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\bin\Debug\iTechArtSurvay.Domain.pdb
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\bin\Debug\iTechArtSurvay.Domain.dll.config
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\bin\Debug\EntityFramework.xml
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\obj\Debug\iTechArtSurvay.Data.csprojResolveAssemblyReference.cache
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\obj\Debug\iTechArtSurvay.Data.Migrations.InitialCreate.resources
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\obj\Debug\iTechArtSurvay.Data.Migrations.InitialCreate1.resources
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\obj\Debug\iTechArtSurvay.Data.csproj.GenerateResource.Cache
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\obj\Debug\iTechArtSurvay.Data.dll
+C:\Users\mikhail.skirukha\Documents\GitHub\red-team\iTechArtSurvay\Server\iTechArtSurvay.Data\obj\Debug\iTechArtSurvay.Data.pdb
