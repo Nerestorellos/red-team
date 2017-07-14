@@ -37,7 +37,7 @@
     cursor: pointer;
 }
 
-.header__about-ref
+.header__ref
 {
     margin-left: auto;
 
@@ -47,7 +47,7 @@
     border-bottom: #ebebeb solid 1px;
 }
 
-.header__about-ref:hover
+.header__ref:hover
 {
     border-bottom: red solid 1px;
 }
@@ -102,7 +102,7 @@
     align-items: flex-start;
 }
 
-.menu-wrapper
+.nav
 {
     display: inline-block;
 
@@ -187,8 +187,6 @@
 
     border: solid black 1px;
 }
-
-
 
 .tab-content__paragraph
 {

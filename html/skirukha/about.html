@@ -8,7 +8,7 @@
 <body class="page">
   <header class="header">
     <img class="header__logo" src="images/logo.png" alt="Логотип iTechArt">
-    <a class="header__about-ref" href="#">О компании</a>
+    <a class="header__ref" href="#">О компании</a>
     <div class="hello-user">
       <i class="hello-user__user-icon"></i>
       <span>Привет, админ!</span>
@@ -16,24 +16,21 @@
     </div>
   </header>
   <main class="main">
-    <div class="menu-wrapper">
-      <nav class="menu">
+    <nav class="nav">
+      <ul class="menu">
         <li class="menu__item">Новый опрос</li>
         <li class="menu__item">Мои опросы</li>
         <li class="menu__item">Шаблоны вопросов</li>
-      </nav>
-    </div>
+      </ul>
+    </nav>
     <div class="content-wrapper">
       <div class="main-content-wrapper">
         <h1 class="main-content-wrapper__title">iTechArt</h1>
         <img class="main-content-wrapper__image" src="images/about-big-image.jpg" alt="О нас"/>
       </div>
-
       <div class="tab-wrapper">
-
-
         <div class="tab">
-          <input id="tab-about" class="tab__input about" type="radio" name="tab" checked="checked" />
+          <input id="tab-about" class="tab__input" type="radio" name="tab" checked="checked" />
           <label for="tab-about" class="tab__label">О нас</label>
           <div class="tab-content">
             <img class="tab-content__image" src="images/about-image.jpg" alt="Текст о нас"/>
